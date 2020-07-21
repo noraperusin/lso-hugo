@@ -457,6 +457,10 @@ a:hover {
   left: 0;
 }
 
+.hero-area h1 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
 .hero-area .block {
   text-align: center;
   z-index: 99;
