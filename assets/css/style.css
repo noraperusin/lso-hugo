@@ -1132,7 +1132,7 @@ a:hover {
   Testimonial section
 ==================================================================*/
 .testimonial:before {
-  background: rgba(42, 48, 55, 0.7);
+  /* background: rgba(42, 48, 55, 0.7); */
 }
 
 .client-info {
