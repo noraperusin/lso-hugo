@@ -3,7 +3,7 @@
 {{ if $data.inicio.inicio.enable}}
 {{ with $data.inicio.inicio}}
 {{"<!-- Start Call To Action -->" | safeHTML}}
-<section class="inicio call-to-action section-sm bg-1 overly" style='background-image: url("{{ .bg_image_webp | absURL }}")'>
+<section class="inicio call-to-action section-sm bg-1 overly" style='background-image: url("{{ .bg_image_webp | absURL }}")' id="inicio">
 	<!-- this image is for trigger this section fallback background image -->
 	<img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'" src="{{ .bg_image_webp | absURL }}" />
 	<div class="container">
